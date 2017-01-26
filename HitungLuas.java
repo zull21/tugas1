@@ -15,6 +15,7 @@ public static void main(String[] args) {
   
    luaspersegipanjang = (lebar * panjang);
    System.out.println("Luas Segi Panjang = " +luaspersegipanjang);
+<<<<<<< HEAD
 //Luas Segitiga
 Scanner input =new Scanner(System.in);
 System.out.print("Masukkan alas: ");
@@ -24,4 +25,17 @@ int tinggi = input.nextInt();
 double luas = (double)(alas*tinggi)/2;
 System.out.print("Luas Segitiga adalah :" +luas);
 }
+=======
+//Luas Lingkaran
+Scanner input =new Scanner(System.in);
+    double phi=3.14;
+    double jari,luaslingkaran;
+    System.out.print("Berapa Jari-jari lingkaran:");
+    jari=input.nextDouble();
+    
+    luaslingkaran = phi*jari*jari;
+    
+    System.out.println("Luas Lingkaran = " + (double)luaslingkaran);
+    }
+>>>>>>> LuasLingkaran
 }
